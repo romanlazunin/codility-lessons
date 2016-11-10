@@ -10,7 +10,12 @@ namespace chapter_1_iterations_1._2_while_loops
     {
         public static int CountDigits(int n)
         {
-            var count = 1;
+            var count = 0;
+            while (n > 0)
+            {
+                n = n / 10;
+                count++;
+            }
 
             return count;
         }
