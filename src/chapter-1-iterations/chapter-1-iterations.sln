@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chapter-1-iterations-2", "c
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chapter-1-iterations-2.test", "..\..\test\chapter-1-iterations\chapter-1-iterations-2.test\chapter-1-iterations-2.test.csproj", "{8805D692-7965-438D-8BBD-E44BBBD26CF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chapter-1-iterations-1.2-while-loops", "chapter-1-iterations-1.2-while-loops\chapter-1-iterations-1.2-while-loops.csproj", "{46ED22D9-F39E-4417-AFFC-37C46CFB7ECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chapter-1-iterations-1.2-while-loops.test", "..\..\test\chapter-1-iterations\chapter-1-iterations-1.2-while-loops.test\chapter-1-iterations-1.2-while-loops.test.csproj", "{A8DD8827-74AF-465A-B9A1-5E739436597F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +41,14 @@ Global
 		{8805D692-7965-438D-8BBD-E44BBBD26CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8805D692-7965-438D-8BBD-E44BBBD26CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8805D692-7965-438D-8BBD-E44BBBD26CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46ED22D9-F39E-4417-AFFC-37C46CFB7ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46ED22D9-F39E-4417-AFFC-37C46CFB7ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46ED22D9-F39E-4417-AFFC-37C46CFB7ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46ED22D9-F39E-4417-AFFC-37C46CFB7ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8DD8827-74AF-465A-B9A1-5E739436597F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8DD8827-74AF-465A-B9A1-5E739436597F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8DD8827-74AF-465A-B9A1-5E739436597F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8DD8827-74AF-465A-B9A1-5E739436597F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +58,7 @@ Global
 		{E816A4D3-BBD1-4652-8BD6-651A53B4122E} = {8C651CF2-7DE4-4584-A668-678FCE09C693}
 		{C39A2862-3D53-40E6-8A9C-69CF0D710C30} = {AA8B22B8-C3AB-44EB-968E-FF246E7C6224}
 		{8805D692-7965-438D-8BBD-E44BBBD26CF6} = {8C651CF2-7DE4-4584-A668-678FCE09C693}
+		{46ED22D9-F39E-4417-AFFC-37C46CFB7ECD} = {AA8B22B8-C3AB-44EB-968E-FF246E7C6224}
+		{A8DD8827-74AF-465A-B9A1-5E739436597F} = {8C651CF2-7DE4-4584-A668-678FCE09C693}
 	EndGlobalSection
 EndGlobal
