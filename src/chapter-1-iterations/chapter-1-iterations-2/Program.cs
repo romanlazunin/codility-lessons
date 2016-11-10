@@ -13,7 +13,16 @@ namespace chapter_1_iterations_2
             Console.WriteLine("chapter-1 - iterations - example 2");
             Console.WriteLine();
 
-            Console.WriteLine(Triangle.Print(6));
+            var n = 4;
+
+            Console.WriteLine(Triangle.Print(n));
+
+            Console.WriteLine();
+
+            Console.WriteLine("Upside down symmetrical triangle");
+            Console.WriteLine();
+
+            Console.WriteLine(UpsideDownSymmetricalTriangle.Print(n));
         }
     }
 }
