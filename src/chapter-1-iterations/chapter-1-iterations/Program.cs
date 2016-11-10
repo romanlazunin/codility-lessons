@@ -11,6 +11,12 @@ namespace chapter_1_iterations
         static void Main(string[] args)
         {
             Console.WriteLine("chapter-1 - iterations - example 1");
+
+            var n = 100;
+
+            var factorial = Iteratoins.Factorial(n);
+
+            Console.WriteLine($"Factorial from {n} is {factorial}. {n}! = {factorial}");
         }
     }
 }
