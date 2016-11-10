@@ -5,7 +5,7 @@ using chapter_1_iterations;
 namespace chapter_1_iterations_1.test
 {
     [TestClass]
-    public class UnitTest1
+    public class ItarationsTests
     {
         [TestMethod]
         public void Iterations_Factorial_Test1()
@@ -13,7 +13,7 @@ namespace chapter_1_iterations_1.test
             var n = 0;
 
             var expected = 1;
-            var actual = Iteratoins.Factorial(n);
+            var actual = Iterations.Factorial(n);
             Assert.AreEqual(expected, actual);
         }
 
@@ -23,7 +23,7 @@ namespace chapter_1_iterations_1.test
             var n = 1;
 
             var expected = 1;
-            var actual = Iteratoins.Factorial(n);
+            var actual = Iterations.Factorial(n);
             Assert.AreEqual(expected, actual);
         }
 
@@ -33,7 +33,7 @@ namespace chapter_1_iterations_1.test
             var n = 2;
 
             var expected = 2;
-            var actual = Iteratoins.Factorial(n);
+            var actual = Iterations.Factorial(n);
             Assert.AreEqual(expected, actual);
         }
 
@@ -43,7 +43,7 @@ namespace chapter_1_iterations_1.test
             var n = 3;
 
             var expected = 6;
-            var actual = Iteratoins.Factorial(n);
+            var actual = Iterations.Factorial(n);
             Assert.AreEqual(expected, actual);
         }
 
@@ -53,7 +53,7 @@ namespace chapter_1_iterations_1.test
             var n = 4;
 
             var expected = 24;
-            var actual = Iteratoins.Factorial(n);
+            var actual = Iterations.Factorial(n);
             Assert.AreEqual(expected, actual);
         }
 
@@ -63,7 +63,7 @@ namespace chapter_1_iterations_1.test
             var n = 5;
 
             var expected = 120;
-            var actual = Iteratoins.Factorial(n);
+            var actual = Iterations.Factorial(n);
             Assert.AreEqual(expected, actual);
         }
 
@@ -73,7 +73,7 @@ namespace chapter_1_iterations_1.test
             var n = 6;
 
             var expected = 720;
-            var actual = Iteratoins.Factorial(n);
+            var actual = Iterations.Factorial(n);
             Assert.AreEqual(expected, actual);
         }
     }

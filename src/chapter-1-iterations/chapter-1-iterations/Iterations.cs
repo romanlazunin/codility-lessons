@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace chapter_1_iterations
 {
-    public class Iteratoins
+    public class Iterations
     {
         public static double Factorial(int n)
         {

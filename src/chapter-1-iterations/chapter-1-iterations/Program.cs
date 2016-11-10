@@ -14,7 +14,7 @@ namespace chapter_1_iterations
 
             var n = 100;
 
-            var factorial = Iteratoins.Factorial(n);
+            var factorial = Iterations.Factorial(n);
 
             Console.WriteLine($"Factorial from {n} is {factorial}. {n}! = {factorial}");
         }
