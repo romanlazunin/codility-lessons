@@ -8,16 +8,42 @@ namespace codility_demo_test
 {
     public class Solution
     {
-        public bool Run(int n)
+        public int Run(int[] A)
         {
-            if (n >= 0 && n < 10)
+            double leftSum = 0;
+            double rightSum = 0;
+            for (int i = 0; i < A.Length; i++)
             {
-                return true;
+                rightSum += A[i];
             }
-            else
+
+            for (int i = 0; i < A.Length; i++)
             {
-                return false;
+                if (i == 0)
+                {
+                    leftSum = 0;
+                }
+                else
+                {
+                    leftSum += A[i - 1];
+                }
+
+                if (i == A.Length - 1)
+                {
+                    rightSum = 0;
+                }
+                else
+                {
+                    rightSum -= A[i];
+                }
+
+                if (leftSum == rightSum)
+                {
+                    return i;
+                }
             }
+
+            return -1;
         }
     }
 }
