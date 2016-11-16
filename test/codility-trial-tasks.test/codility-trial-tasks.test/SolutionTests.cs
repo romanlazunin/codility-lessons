@@ -73,5 +73,25 @@ namespace codility_trial_tasks.test
 
             Assert.AreEqual(expected, actual);
         }
+
+        // 2, 2, 2, 2, 2, 3, 4, 4, 4, 6
+        [Test]
+        public void Solution_Test_Run_Test6()
+        {
+            var A = new int[] { 2, 2, 2, 2, 2, 3, 4, 4, 4, 6 };
+            var expected = -1;
+            var actual = new Solution().Run(A);
+            Assert.AreEqual(expected, actual);
+        }
+
+        // 1, 1, 1, 1, 50
+        [Test]
+        public void Solution_Test_Run_Test7()
+        {
+            var A = new int[] { 1, 1, 1, 1, 50 };
+            var expected = 1;
+            var actual = new Solution().Run(A);
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
