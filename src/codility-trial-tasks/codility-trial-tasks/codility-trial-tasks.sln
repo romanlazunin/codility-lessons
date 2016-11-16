@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codility-trial-tasks-bug-fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codility-trial-tasks-bug-fix.test", "..\..\..\test\codility-trial-tasks.test\codility-trial-tasks.test\codility-trial-tasks-bug-fix.test.csproj", "{F7387983-EEE7-4DA3-90D9-E45878D79355}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codility-trial-tasks-pit-depth", "..\codility-trial-tasks-pit-depth\codility-trial-tasks-pit-depth.csproj", "{8774E9BA-D294-4D02-9B1F-10117B4178A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codility-trial-tasks-pit-depth.test", "..\..\..\test\codility-trial-tasks-pit-depth.test\codility-trial-tasks-pit-depth.test\codility-trial-tasks-pit-depth.test.csproj", "{84A30392-F6E8-4CC4-ABD9-2D539D3DC9CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{F7387983-EEE7-4DA3-90D9-E45878D79355}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7387983-EEE7-4DA3-90D9-E45878D79355}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7387983-EEE7-4DA3-90D9-E45878D79355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8774E9BA-D294-4D02-9B1F-10117B4178A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8774E9BA-D294-4D02-9B1F-10117B4178A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8774E9BA-D294-4D02-9B1F-10117B4178A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8774E9BA-D294-4D02-9B1F-10117B4178A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84A30392-F6E8-4CC4-ABD9-2D539D3DC9CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A30392-F6E8-4CC4-ABD9-2D539D3DC9CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A30392-F6E8-4CC4-ABD9-2D539D3DC9CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A30392-F6E8-4CC4-ABD9-2D539D3DC9CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
