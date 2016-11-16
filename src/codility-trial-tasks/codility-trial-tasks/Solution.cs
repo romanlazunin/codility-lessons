@@ -17,8 +17,9 @@ namespace codility_trial_tasks
             {
                 L[i + 1] = A[i];
             }
-            int count = 0;
-            int pos = (n + 1) / 2;
+            int count = 1;
+            int pos = (n + 2) / 2;
+
             int candidate = L[pos];
             for (int i = 1; i <= n; i++)
             {
